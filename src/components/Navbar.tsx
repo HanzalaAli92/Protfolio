@@ -45,7 +45,7 @@ const Navbar = () => {
   return (
     <div className='container pt-8 '>
       <div className='flex justify-between items-center'>
-        <div className='flex space-x-52 items-center'>
+        <div className='flex space-x-48 items-center'>
         <div className='flex items-center  gap-3'>
           <Image src={"/design.png"} alt='logo' width={50} height={50}/>
           <div className='text-2xl font-medium'>Portfolio</div>
@@ -73,7 +73,7 @@ const Navbar = () => {
 
       {/* Mobile Navbar */}
       {isOpen && (
-        <ul className="flex mt-5 mx-1 md:hidden text-white">
+        <ul className="flex mt-5 md:hidden text-white">
           <li className='menuLink flex items-center p-2'>
             <FaHome className='mr-2' /> <a href="#hero">Home</a>
           </li>
