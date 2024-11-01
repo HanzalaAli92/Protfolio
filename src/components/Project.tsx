@@ -50,7 +50,7 @@ const data = [
 
 const Project = () => {
   return (
-    <div id='project' className='container pt-20'>
+    <div id='project' className='container pt-16'>
       <Heading  title='My Projects'/>
 
       <div className='grid gap-10 xl:gap-0 xl:gap-y-10 md:grid-cols-3 lg-grid-cols-4 place-items-center'>
