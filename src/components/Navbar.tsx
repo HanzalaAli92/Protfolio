@@ -73,7 +73,7 @@ const Navbar = () => {
 
       {/* Mobile Navbar */}
       {isOpen && (
-        <ul className="flex mt-5 md:hidden text-white">
+        <ul className="flex mt-5 flex-col md:hidden text-white">
           <li className='menuLink flex items-center p-2'>
             <FaHome className='mr-2' /> <a href="#hero">Home</a>
           </li>
