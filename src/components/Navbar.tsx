@@ -48,7 +48,8 @@ const Navbar = () => {
         <div className='flex space-x-48 items-center'>
         <div className='flex items-center  gap-3'>
           <Image src={"/design.png"} alt='logo' width={50} height={50}/>
-          <div className='text-2xl font-medium'>Portfolio</div>
+          {/* <div className='text-2xl font-medium'>Portfolio</div> */}
+          <div><a href="https://hanzala-responsive.vercel.app/" className='border-2 px-2 py-1 border-[#0e7490] bg-[#0e7490] rounded-full font-semibold'>Resume</a></div>
         </div>
         <AiOutlineMenu className='md:hidden cursor-pointer' size={30} onClick={toggleNavbar} />
       </div>
